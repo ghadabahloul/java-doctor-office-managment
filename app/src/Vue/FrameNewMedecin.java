@@ -2,8 +2,8 @@
 package Vue;
 
 import Controleur.*;
-import Modele.Etablissement;
-import Modele.Medecin;
+import DAO.Etablissement;
+import DAO.Medecin;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

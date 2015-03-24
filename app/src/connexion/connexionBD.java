@@ -39,6 +39,7 @@ public class connexionBD {
 			JOptionPane.showMessageDialog(null,"erreur de mise a jour"+e.getMessage());			
 		}
 	}
+       
 	public ResultSet reqSelection(String req){
 		ResultSet res = null;
 		try{
@@ -48,6 +49,9 @@ public class connexionBD {
 		}
 		return res;
 	}
+       
+        
+        
 	public void deconnection(){
 		try{
 			St.close();

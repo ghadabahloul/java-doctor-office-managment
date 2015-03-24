@@ -5,7 +5,7 @@
  */
 package Vue;
 
-import Modele.Medecin;
+import DAO.Medecin;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

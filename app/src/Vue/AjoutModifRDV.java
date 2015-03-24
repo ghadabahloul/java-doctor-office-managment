@@ -7,8 +7,8 @@ package Vue;
 
 
 
-import Modele.Etablissement;
-import Modele.Rdv;
+import DAO.Etablissement;
+import DAO.Rdv;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

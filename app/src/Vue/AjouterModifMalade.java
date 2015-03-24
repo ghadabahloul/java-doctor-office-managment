@@ -6,8 +6,8 @@
 package Vue;
 
 import Controleur.*;
-import Modele.Medecin;
-import Modele.Patient;
+import DAO.Medecin;
+import DAO.Patient;
 import connexion.*;
 import java.sql.ResultSet;
 import java.sql.SQLException;

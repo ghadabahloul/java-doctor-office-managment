@@ -6,8 +6,8 @@
 package Vue;
 
 
-import Modele.Consultation;
-import Modele.Etablissement;
+import DAO.Consultation;
+import DAO.Etablissement;
 import java.awt.BorderLayout;
 import java.awt.*;
 import java.awt.event.ActionEvent;

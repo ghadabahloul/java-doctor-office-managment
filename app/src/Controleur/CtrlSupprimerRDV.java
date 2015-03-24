@@ -5,7 +5,7 @@
  */
 package Controleur;
 
-import Modele.Rdv;
+import DAO.Rdv;
 
 /**
  *

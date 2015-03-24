@@ -5,7 +5,7 @@
  */
 package Controleur;
 
-import Modele.Patient;
+import DAO.Patient;
 
 /**
  *

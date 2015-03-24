@@ -5,10 +5,10 @@
  */
 package Controleur;
 
-import Modele.Consultation;
-import Modele.Etablissement;
-import Modele.Medecin;
-import Modele.Patient;
+import DAO.Consultation;
+import DAO.Etablissement;
+import DAO.Medecin;
+import DAO.Patient;
 import Vue.FenPrincipale;
 import com.lowagie.text.Chunk;
 import com.lowagie.text.Document;

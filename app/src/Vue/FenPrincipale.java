@@ -9,26 +9,22 @@ import Controleur.CtrlImprimerOrdonnance;
 import Controleur.CtrlSupprimerPatient;
 import Controleur.CtrlSupprimerRDV;
 import connexion.connexionBD;
-import java.awt.Image;
+import java.awt.*;
 import java.sql.ResultSet;
 import java.util.Date;
-import javax.swing.JOptionPane;
 import javax.swing.JTable;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
+import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author GHAWAR
+ * @author ghada
  */
 public class FenPrincipale extends javax.swing.JFrame {
     
-    /**
-     * Creates new form FenPrincipale
-     */
+   
     
     public FenPrincipale(int idm) {
         initComponents();
@@ -551,7 +547,9 @@ public class FenPrincipale extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtDiagnosticActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDiagnosticActionPerformed
-        // TODO add your handling code here:
+        
+        
+        
     }//GEN-LAST:event_txtDiagnosticActionPerformed
 
     private void menuItemAjouterMaladeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuItemAjouterMaladeActionPerformed
