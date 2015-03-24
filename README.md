@@ -4,6 +4,6 @@ This is a graphical Java application developed by Ghada Bahloul for a class proj
 It uses Swing.
 
 This project is intended to help the doctor to manage his office : patients, prescriptions, appointments ...
-All of these are stored in MySQL database on localhost.
+All of these are stored in MySQL database on localhost (.sql file contains the description).
 
 The project is created with Netbeans. This project is under development and not a complete application.
