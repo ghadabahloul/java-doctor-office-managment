@@ -5,11 +5,11 @@
  */
 package Controleur;
 
-import DAO.Consultation;
-import DAO.Etablissement;
-import DAO.Medecin;
-import DAO.Patient;
-import Vue.FenPrincipale;
+import application_cabinetMedical_DAO.Consultation;
+import application_cabinetMedical_DAO.Etablissement;
+import application_cabinetMedical_DAO.Medecin;
+import application_cabinetMedical_DAO.Patient;
+import application_cabinetMedical_gui.FenPrincipale;
 import com.lowagie.text.Chunk;
 import com.lowagie.text.Document;
 import com.lowagie.text.DocumentException;
@@ -30,7 +30,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author GHAWAR
+ * @author ghada
  */
 public class CtrlImprimerOrdonnance {
     private FenPrincipale Fen;
@@ -125,7 +125,7 @@ public class CtrlImprimerOrdonnance {
           document.add(paragraph);
           
           Runtime r = Runtime.getRuntime();
-	  r.exec("cmd /C ordonnance.pdf");
+	  r.exec("cmd /C ./ordonnance.pdf");
         } catch (DocumentException de) {
           de.printStackTrace();
         } catch (IOException ioe) {
